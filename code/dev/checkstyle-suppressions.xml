@@ -1,0 +1,36 @@
+<!--
+  ~ Copyright (c) 2018 Shareit.com Co., Ltd. All Rights Reserved.
+  -->
+
+<!DOCTYPE suppressions PUBLIC
+    "-//Puppy Crawl//DTD Suppressions 1.1//EN"
+    "http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
+
+<!--
+
+    This file contains suppression rules for Checkstyle checks.
+    Ideally only files that cannot be modified (e.g. third-party code)
+    should be added here. All other violations should be fixed.
+
+-->
+
+<suppressions>
+    <!--<suppress checks=".*"-->
+    <!--files="core/src/main/java/org/apache/spark/util/collection/TimSort.java"/>-->
+    <!--<suppress checks=".*"-->
+    <!--files="sql/core/src/main/java/org/apache/spark/sql/api.java/*"/>-->
+    <!--<suppress checks="LineLength"-->
+    <!--files="src/test/java/org/apache/spark/sql/hive/test/Complex.java"/>-->
+    <!--<suppress checks="LineLength"-->
+    <!--files="src/main/java/org/apache/spark/examples/JavaLogQuery.java"/>-->
+    <!--<suppress checks="LineLength"-->
+    <!--files="src/main/java/org/apache/hive/service/*"/>-->
+    <!--<suppress checks="MethodName"-->
+    <!--files="src/main/java/org/apache/hive/service/auth/PasswdAuthenticationProvider.java"/>-->
+    <!--<suppress checks="MethodName"-->
+    <!--files="sql/catalyst/src/main/java/org/apache/spark/sql/streaming/OutputMode.java"/>-->
+    <!--<suppress checks="MethodName"-->
+    <!--files="sql/catalyst/src/main/java/org/apache/spark/sql/streaming/GroupStateTimeout.java"/>-->
+    <!--<suppress checks="MethodName"-->
+    <!--files="sql/core/src/main/java/org/apache/spark/sql/streaming/Trigger.java"/>-->
+</suppressions>
